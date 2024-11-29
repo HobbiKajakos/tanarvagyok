@@ -1,0 +1,129 @@
+body
+{
+	margin			: 0			;
+	font-family		: Verdana		;
+	color			: #040			;
+	overflow-y		: scroll		;
+}
+
+div#cimsor
+{
+	height			: 32px			; 
+	line-height		: 32px			; 
+	vertical-align		: top			; 
+	background-color	: #040			; 
+	padding			: 8px			;
+}
+
+div#cimsor a
+{
+	text-decoration		: none			;
+}
+
+div#cimsor img#ikon
+{
+	float			: left			;
+	margin-right		: 24px			;
+}
+
+div#cimsor span#cim1
+{
+	font-size		: 1.5em			;
+	color			: #FFF			;
+}
+
+div#cimsor span#cim2
+{
+	font-size		: 1em			;
+	color			: #FFF			;
+}
+
+span#login
+{
+	float			: right			;
+}
+
+
+
+div#keret
+{
+	margin			: 0 32px		;
+}
+
+div#tartalom
+{
+	min-width		: 540px			;
+	max-width		: 960px			;
+	margin			: 32px auto		;
+	line-height		: 24px			;
+	text-align		: justify		;
+}
+
+div#tartalom a
+{
+	color			: #0A0			;
+	text-decoration		: none			;
+}
+
+form.reglog
+{
+	width			: 468px			;
+	margin			: 32px auto		;
+	padding			: 32px			;
+	background-color	: #EFE			;
+	border			: solid 1px #ADA	;
+	border-radius		: 10px			;
+	box-shadow		: 2px 2px 2px #666	;
+	line-height		: 36px			;
+}
+
+form.reglog span
+{
+	display			: inline-block		;
+	width			: 240px			;
+}
+
+form.reglog input[type=text]      , 
+form.reglog input[type=email]     , 
+form.reglog input[type=password]
+{
+	width                   : 222px                 ;
+	color			: #040			;
+}
+
+div#keskeny
+{
+	width			: 540px			;
+	margin			: 64px auto		;
+	line-height		: 20px			;
+	font-size		: 0.8em			;
+}
+
+
+
+
+
+/* Mobil nézet esetén */
+
+
+
+@media screen and (orientation: portrait) 
+{
+
+    div#cimsor
+    {
+	height			: 64px			; 
+	line-height		: 64px			; 
+	font-size		: 1.75em			;
+    }
+
+    div#cimsor img#ikon
+    {
+	height			: 64px			;
+    }
+
+
+}
+
+
+
